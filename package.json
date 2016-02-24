@@ -1,0 +1,22 @@
+{
+  "name": "ghostscript-js",
+  "version": "0.0.1",
+  "description": "Just a nodeJS wrapper for ghostscript",
+  "main": "src/ghostscript.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Inist-CNRS/ghostscript-js.git"
+  },
+  "author": "Rémy MEJA <remy.meja@inist.fr>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
