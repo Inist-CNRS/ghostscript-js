@@ -9,8 +9,7 @@ const Ghostscript = require('ghostscript-js')
 
 let gs = new Ghostscript
 
-gs
-  .batch()
+gs.batch()
   .nopause()
   .device()
   .resolution(150)
@@ -19,7 +18,7 @@ gs
   .exec().catch((error) => {
     // Do something
   }).then((sdtout) => {
-    // Do something 
+    // Do something
   })
 ```
 

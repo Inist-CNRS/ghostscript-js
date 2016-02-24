@@ -75,8 +75,7 @@ describe(pkg.name + '/src/ghostscript.js', () => {
   describe('#exec', () => {
     it('should convert pdf to tiff', (done) => {
       let gs = new Ghostscript
-      gs
-        .batch()
+      gs.batch()
         .nopause()
         .device()
         .resolution()
