@@ -19,6 +19,10 @@ class Ghostscript {
     this.options.push('-dBATCH');
     return this
   }
+  interpolate() {
+    this.options.push('-dINTERPOLATE');
+    return this
+  }
   ram(size) {
     const _size = size || 30000000;
     this.options.push('-c "' + _size + ' setvmthreshold"');

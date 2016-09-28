@@ -32,10 +32,17 @@ describe(pkg.name + '/src/ghostscript.js', () => {
       expect(gs.batch().options[0]).to.equal('-dBATCH')
     })
   });
+  describe('#interpolate', () => {
+    it('should set interpolate option', () => {
+      const gs = new Ghostscript();
+      expect(gs.interpolate().options[0]).to.equal('-dINTERPOLATE')
+    })
+  });
   describe('#ram', () => {
     it('should set ram default option (tiff24nc)', () => {
       const gs = new Ghostscript;
-      expect(gs.ram().options[0]).to.equal('-c "30000000 setvmthreshold"')
+      expect(gs.ram().options[0]).to.equal('-c "30000000 setvmthreshold"');
+      expect(gs.ram().options[1]).to.equal('-f')
     });
     it('should set ram option', (done) => {
       const gs = new Ghostscript;
