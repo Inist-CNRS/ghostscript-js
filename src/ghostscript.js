@@ -5,6 +5,7 @@ const child_process = require('child_process');
 class Ghostscript {
   constructor() {
     this.options = [];
+    this.lastOption = [];
     this._input = null
   }
   nopause() {
@@ -25,8 +26,7 @@ class Ghostscript {
   }
   ram(size) {
     const _size = size || 30000000;
-    this.options.push('-c "' + _size + ' setvmthreshold"');
-    this.options.push('-f');
+    this.lastOption.push('-c "' + _size + ' setvmthreshold" -f');
     return this
   }
   device(device) {
@@ -59,7 +59,8 @@ class Ghostscript {
     if (!this._input) {
       return new Error("Il manque un fichier en entrée")
     }
-    const args = this.options.concat(this._input).join(' ');
+    const args = this.options.concat(this.lastOption).concat(this._input).join(' ');
+    console.log(args);
     return new Promise((resolve, reject) => {
       child_process.exec('gs ' + args, function(error, stdout, stderr) {
         if (error) {

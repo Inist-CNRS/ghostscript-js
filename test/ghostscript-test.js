@@ -41,12 +41,11 @@ describe(pkg.name + '/src/ghostscript.js', () => {
   describe('#ram', () => {
     it('should set ram default option (tiff24nc)', () => {
       const gs = new Ghostscript;
-      expect(gs.ram().options[0]).to.equal('-c "30000000 setvmthreshold"');
-      expect(gs.ram().options[1]).to.equal('-f')
+      expect(gs.ram().lastOption[0]).to.equal('-c "30000000 setvmthreshold" -f');
     });
     it('should set ram option', (done) => {
       const gs = new Ghostscript;
-      expect(gs.ram(123456789).options[0]).to.equal('-c "123456789 setvmthreshold"');
+      expect(gs.ram(123456789).lastOption[0]).to.equal('-c "123456789 setvmthreshold" -f');
       done()
     })
   });
@@ -99,6 +98,8 @@ describe(pkg.name + '/src/ghostscript.js', () => {
     it('should convert pdf to tiff', () => {
       const gs = new Ghostscript;
       return gs.batch()
+        .quiet()
+        .ram()
         .nopause()
         .device()
         .resolution()
