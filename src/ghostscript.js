@@ -22,6 +22,7 @@ class Ghostscript {
   ram(size) {
     const _size = size || 30000000;
     this.options.push('-c "' + _size + ' setvmthreshold"');
+    this.options.push('-f');
     return this
   }
   device(device) {
