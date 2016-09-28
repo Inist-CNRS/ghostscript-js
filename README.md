@@ -7,7 +7,7 @@ Just a nodeJS wrapper for ghostscript
 
 const Ghostscript = require('ghostscript-js')
 
-let gs = new Ghostscript
+const gs = new Ghostscript
 
 gs.batch()
   .nopause()
@@ -27,6 +27,7 @@ gs.batch()
 * batch
 * nopause
 * quiet
+* ram - number - defaults to 30 MB
 * device - device - defaults to tiff24nc
 * resolution - number
 * firstPage - number
