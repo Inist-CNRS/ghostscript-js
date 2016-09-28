@@ -60,7 +60,6 @@ class Ghostscript {
       return new Error("Il manque un fichier en entrée")
     }
     const args = this.options.concat(this.lastOption).concat(this._input).join(' ');
-    console.log(args);
     return new Promise((resolve, reject) => {
       child_process.exec('gs ' + args, function(error, stdout, stderr) {
         if (error) {
