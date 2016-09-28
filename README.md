@@ -27,6 +27,7 @@ gs.batch()
 * batch
 * nopause
 * quiet
+* interpolate
 * ram - number - defaults to 30 MB
 * device - device - defaults to tiff24nc
 * resolution - number
