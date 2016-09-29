@@ -63,7 +63,7 @@ class Ghostscript {
     return new Promise((resolve, reject) => {
       child_process.exec('gs ' + args, function(error, stdout, stderr) {
         if (error) {
-          reject(stderr)
+          reject(error)
         } else {
           resolve(stdout)
         }
