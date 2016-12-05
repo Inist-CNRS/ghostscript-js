@@ -55,6 +55,14 @@ class Ghostscript {
     this.options.push('-sOutputFile=' + output);
     return this
   }
+  compatibility(compatibility){
+    this.options.push('-dCompatibility=' + compatibility)
+    return this
+  }
+  pdfsettings(pdfsettings){
+    this.options.push('-dPDFSETTINGS=' + pdfsettings)
+    return this
+  }
   exec() {
     if (!this._input) {
       return new Error("Il manque un fichier en entrée")

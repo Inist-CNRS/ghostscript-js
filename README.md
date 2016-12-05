@@ -36,3 +36,5 @@ gs.batch()
 * output - file
 * input - file
 * exec - Promise (ES6)
+* compatibility - number
+* pdfsettings - string

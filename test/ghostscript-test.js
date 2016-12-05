@@ -94,6 +94,18 @@ describe(pkg.name + '/src/ghostscript.js', () => {
       expect(gs.output('fileOutput.tiff').options[0]).to.equal('-sOutputFile=fileOutput.tiff')
     })
   });
+  describe('#compatibility', () => {
+    it('should set compatibility option', () => {
+      const gs = new Ghostscript;
+      expect(gs.compatibility(1.4).options[0]).to.equal('-dCompatibility=1.4')
+    })
+  });
+  describe('#pdfsettings', () => {
+    it('should set pdfsettings option', () => {
+      const gs = new Ghostscript;
+      expect(gs.pdfsettings('/ebook').options[0]).to.equal('-dPDFSETTINGS=/ebook')
+    })
+  });
   describe('#exec', () => {
     it('should convert pdf to tiff', () => {
       const gs = new Ghostscript;
