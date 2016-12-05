@@ -56,11 +56,11 @@ class Ghostscript {
     return this
   }
   compatibility(compatibility){
-    this.options.push('-dCompatibility=' + compatibility)
+    this.options.push('-dCompatibility=' + compatibility);
     return this
   }
   pdfsettings(pdfsettings){
-    this.options.push('-dPDFSETTINGS=' + pdfsettings)
+    this.options.push('-dPDFSETTINGS=' + pdfsettings);
     return this
   }
   exec() {
