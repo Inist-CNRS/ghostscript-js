@@ -65,7 +65,7 @@ class Ghostscript {
   }
   exec() {
     if (!this._input) {
-      return new Error("Il manque un fichier en entrée")
+      return new Error("An input file is missing")
     }
     const args = this.options.concat(this.lastOption).concat(this._input).join(' ');
     return new Promise((resolve, reject) => {
