@@ -18,9 +18,11 @@ gs.batch()
   .resolution(150)
   .input('/path/to/file.pdf')
   .output('/path/to/file.tif')
-  .exec().catch((error) => {
+  .exec()
+  .then((sdtout) => {
     // Do something
-  }).then((sdtout) => {
+  })
+  .catch((error) => {
     // Do something
   })
 ```
