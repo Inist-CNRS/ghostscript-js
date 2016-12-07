@@ -10,7 +10,7 @@ Just a nodeJS wrapper for ghostscript
 
 const Ghostscript = require('ghostscript-js')
 
-const gs = new Ghostscript
+const gs = new Ghostscript()
 
 gs.batch()
   .nopause()
