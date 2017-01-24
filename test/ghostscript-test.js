@@ -101,9 +101,20 @@ describe(pkg.name + '/src/ghostscript.js', () => {
     })
   });
   describe('#pdfsettings', () => {
-    it('should set pdfsettings option', () => {
+    it('should set pdfsettings default option', () => {
       const gs = new Ghostscript;
       expect(gs.pdfsettings('/ebook').options[0]).to.equal('-dPDFSETTINGS=/ebook')
+    })
+  });
+  describe('#autoRotatePages', () => {
+    it('should set autoRotatePages default option (All)', () => {
+      const gs = new Ghostscript;
+      expect(gs.autoRotatePages().options[0]).to.equal('-dAutoRotatePages=/All')
+    });
+
+    it('should set autoRotatePages option', () => {
+      const gs = new Ghostscript;
+      expect(gs.autoRotatePages('PageByPage').options[0]).to.equal('-dAutoRotatePages=/PageByPage')
     })
   });
   describe('#exec', () => {

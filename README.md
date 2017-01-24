@@ -38,6 +38,7 @@ gs.batch()
 * resolution - number
 * firstPage - number
 * lastPage - number
+* AutoRotatePages - All, None, PageByPage
 * output - file
 * input - file
 * exec - Promise (ES6)
