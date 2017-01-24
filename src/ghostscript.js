@@ -63,6 +63,11 @@ class Ghostscript {
     this.options.push('-dPDFSETTINGS=' + pdfsettings);
     return this
   }
+  autoRotatePages(setting) {
+    const _setting = setting || 'All';
+    this.options.push('-dAutoRotatePages=/' + _setting);
+    return this
+  }
   exec() {
     if (!this._input) {
       return new Error("An input file is missing")
