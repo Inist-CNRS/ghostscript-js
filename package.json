@@ -13,10 +13,11 @@
     "node": ">=4.2.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "semistandard && mocha"
   },
   "devDependencies": {
     "chai": "^3.4.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "semistandard": "*"
   }
 }
