@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/Inist-CNRS/ghostscript-js.svg?branch=master)](https://travis-ci.org/Inist-CNRS/ghostscript-js)
 [![bitHound Overall Score](https://www.bithound.io/github/Inist-CNRS/ghostscript-js/badges/score.svg)](https://www.bithound.io/github/Inist-CNRS/ghostscript-js)
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
 
 # ghostscript-js
 
