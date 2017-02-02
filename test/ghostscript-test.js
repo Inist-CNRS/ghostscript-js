@@ -301,7 +301,7 @@ describe(pkg.name + '/src/ghostscript.js', () => {
     });
 
     after(() => {
-      childProcess.exec(`rm ${__dirname} /data/output/test.tif`);
+      childProcess.exec(`rm ${__dirname}/data/output/test.tif`);
     });
   });
 });
