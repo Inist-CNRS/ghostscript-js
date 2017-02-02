@@ -1,6 +1,6 @@
 {
   "name": "ghostscript-js",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Just a nodeJS wrapper for ghostscript",
   "main": "src/ghostscript.js",
   "repository": {
