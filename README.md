@@ -39,6 +39,23 @@ gs.batch()
 * firstPage - number
 * lastPage - number
 * AutoRotatePages - All, None, PageByPage
+* antiAliasColorImage
+* antiAliasGrayImage
+* antiAliasMonoImage
+* autoFilterColorImages
+* colorImageFilter
+* autoFilterGrayImages
+* grayImageFilter
+* downsampleColorImages
+* downsampleGrayImages
+* downsampleMonoImages
+* colorConversionStrategy
+* convertCMYKImagesToRGB
+* convertImagesToIndexed
+* UCRandBGInfo
+* preserveHalftoneInfo
+* preserveOPIComments
+* preserveOverprintSettings
 * output - file
 * input - file
 * exec - Promise (ES6)
