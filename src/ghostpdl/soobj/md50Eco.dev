@@ -1,0 +1,1 @@
+-dev md50Eco -include ./soobj/page -obj ./soobj/gdevalps.o

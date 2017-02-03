@@ -1,0 +1,3 @@
+-obj -include ./soobj/sdcte ./soobj/sdeparam
+-obj ./soobj/zfdcte.o
+-oper zfdcte

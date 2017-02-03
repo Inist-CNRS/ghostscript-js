@@ -1,0 +1,1 @@
+-dev samsunggdi -include ./soobj/page -obj ./soobj/gdevgdi.o ./soobj/gdevpcl.o

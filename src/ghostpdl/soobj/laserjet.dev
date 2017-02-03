@@ -1,0 +1,1 @@
+-dev2 laserjet -include ./soobj/page -obj ./soobj/gdevdjet.o ./soobj/gdevdljm.o ./soobj/gdevpcl.o

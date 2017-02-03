@@ -1,0 +1,20 @@
+-obj ./soobj/afangles.o ./soobj/afcjk.o ./soobj/afdummy.o ./soobj/afglobal.o ./soobj/afhints.o ./soobj/afindic.o ./soobj/aflatin.o ./soobj/afloader.o ./soobj/afmodule.o ./soobj/afwarp.o ./soobj/afblue.o ./soobj/afranges.o ./soobj/hbshim.o
+./soobj/ftadvanc.o ./soobj/ftcalc.o ./soobj/ftdbgmem.o ./soobj/ftgloadr.o ./soobj/ftobjs.o ./soobj/ftoutln.o ./soobj/ftrfork.o ./soobj/ftsnames.o ./soobj/ftstream.o ./soobj/fttrigon.o ./soobj/ftutil.o ./soobj/ftbbox.o ./soobj/ftbdf.o ./soobj/ftbitmap.o ./soobj/ftdebug.o ./soobj/ftgasp.o ./soobj/ftglyph.o ./soobj/ftgxval.o ./soobj/ftinit.o ./soobj/ftlcdfil.o ./soobj/ftmm.o ./soobj/ftotval.o ./soobj/ftpfr.o ./soobj/ftstroke.o ./soobj/ftsynth.o ./soobj/ftsystem.o ./soobj/fttype1.o ./soobj/ftwinfnt.o ./soobj/ftxf86.o ./soobj/ftpatent.o ./soobj/ftmd5.o
+./soobj/bdflib.o ./soobj/bdfdrivr.o
+./soobj/ftcbasic.o ./soobj/ft2ccache.o ./soobj/ftccmap.o ./soobj/ftcglyph.o ./soobj/ftcimage.o ./soobj/ftcmanag.o ./soobj/ftcmru.o ./soobj/ftcsbits.o
+./soobj/cffobjs.o ./soobj/cffload.o ./soobj/cffgload.o ./soobj/cffparse.o ./soobj/cffcmap.o ./soobj/cffdrivr.o ./soobj/cf2arrst.o ./soobj/cf2blues.o ./soobj/cf2error.o ./soobj/cf2font.o ./soobj/cf2ft.o ./soobj/cf2hints.o ./soobj/cf2intrp.o ./soobj/cf2read.o ./soobj/cf2stack.o
+./soobj/cidparse.o ./soobj/cidload.o ./soobj/cidriver.o ./soobj/cidgload.o ./soobj/cidobjs.o
+./soobj/ftgzip.o
+./soobj/ftlzw.o
+./soobj/pcfdrivr.o ./soobj/pcfread.o ./soobj/pcfutil.o
+./soobj/pfrload.o ./soobj/pfrgload.o ./soobj/pfrcmap.o ./soobj/pfrdrivr.o ./soobj/pfrsbit.o ./soobj/pfrobjs.o
+./soobj/psobjs.o ./soobj/t1decode.o ./soobj/t1cmap.o ./soobj/afmparse.o ./soobj/psconv.o ./soobj/psauxmod.o
+./soobj/pshrec.o ./soobj/pshglob.o ./soobj/pshmod.o ./soobj/pshalgo.o
+./soobj/psmodule.o ./soobj/pspic.o
+./soobj/ftraster.o ./soobj/ftrend1.o ./soobj/rastpic.o
+./soobj/ftgrays.o ./soobj/ftsmooth.o ./soobj/ftspic.o
+./soobj/sfobjs.o ./soobj/sfdriver.o ./soobj/ttcmap.o ./soobj/ttmtx.o ./soobj/ttpost.o ./soobj/ft2ttload.o ./soobj/ttsbit.o ./soobj/ttkern.o ./soobj/ttbdf.o ./soobj/sfntpic.o ./soobj/pngshim.o
+./soobj/ttdriver.o ./soobj/ft2ttobjs.o ./soobj/ttpload.o ./soobj/ttgload.o ./soobj/ft2ttinterp.o ./soobj/ttgxvar.o ./soobj/ttpic.o ./soobj/ttsubpix.o
+./soobj/t1afm.o ./soobj/t1driver.o ./soobj/t1objs.o ./soobj/t1load.o ./soobj/t1gload.o ./soobj/t1parse.o
+./soobj/t42objs.o ./soobj/t42parse.o ./soobj/t42drivr.o
+./soobj/winfnt.o

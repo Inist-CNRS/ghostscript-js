@@ -1,0 +1,1 @@
+-dev2 pcx24b -include ./soobj/page -obj ./soobj/gdevpcx.o ./soobj/gdevpccm.o

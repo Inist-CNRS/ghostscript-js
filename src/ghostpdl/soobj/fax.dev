@@ -1,0 +1,2 @@
+-obj ./soobj/gdevfax.o ./soobj/minftrsz.o
+-include ./soobj/cfe -include ./soobj/libtiff

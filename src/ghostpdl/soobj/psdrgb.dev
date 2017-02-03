@@ -1,0 +1,1 @@
+-dev psdrgb -obj ./soobj/gdevpsd.o ./soobj/gdevdevn.o ./soobj/gsequivc.o

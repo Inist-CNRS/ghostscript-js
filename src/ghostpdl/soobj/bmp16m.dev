@@ -1,0 +1,1 @@
+-dev2 bmp16m -include ./soobj/page -obj ./soobj/gdevbmp.o ./soobj/gdevbmpc.o ./soobj/gdevpccm.o

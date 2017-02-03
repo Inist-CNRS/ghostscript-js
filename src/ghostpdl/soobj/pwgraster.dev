@@ -1,0 +1,3 @@
+-dev2 pwgraster -include ./soobj/page -obj ./soobj/gdevcups.o
+-include ./soobj/lcups.dev
+-include ./soobj/lcupsi.dev

@@ -1,0 +1,3 @@
+-obj ./soobj/zfunc4.o
+-functiontype 4
+-include ./soobj/func ./soobj/func4lib

@@ -1,0 +1,2 @@
+-obj ./soobj/zupath.o ./soobj/ibnum.o ./soobj/gdevhit.o
+-oper zupath_l2

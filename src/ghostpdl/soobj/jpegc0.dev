@@ -1,0 +1,1 @@
+-obj ./soobj/jcomapi.o ./soobj/jutils.o ./soobj/jmemmgr.o ./soobj/jerror.o ./soobj/jaricom.o ./soobj/jmemcust.o

@@ -1,0 +1,1 @@
+-dev lps4500 -include ./soobj/page -obj ./soobj/gdevescv.o

@@ -1,0 +1,2 @@
+-obj ./soobj/zpdfops.o
+-oper zpdfops

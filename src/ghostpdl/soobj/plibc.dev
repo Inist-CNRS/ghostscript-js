@@ -1,0 +1,1 @@
+-dev2 plibc -include ./soobj/page -obj ./soobj/gdevplib.o ./soobj/gdevppla.o ./soobj/gdevmpla.o

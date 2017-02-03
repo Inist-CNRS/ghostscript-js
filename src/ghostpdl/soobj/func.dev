@@ -1,0 +1,4 @@
+-obj ./soobj/zfunc.o ./soobj/zfunc0.o
+-oper zfunc
+-functiontype 0
+-include ./soobj/funclib

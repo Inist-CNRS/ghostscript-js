@@ -1,0 +1,3 @@
+-obj ./soobj/gsiodevs.o
+-include ./soobj/sfile
+-iodev stdin stdout stderr

@@ -1,0 +1,5 @@
+-obj ./soobj/jcapimin.o ./soobj/jcapistd.o ./soobj/jcinit.o
+-include ./soobj/jpegc0.dev
+-obj ./soobj/jccoefct.o ./soobj/jccolor.o ./soobj/jcdctmgr.o ./soobj/jcarith.o
+-obj ./soobj/jchuff.o ./soobj/jcmainct.o ./soobj/jcmarker.o ./soobj/jcmaster.o
+-obj ./soobj/jcparam.o ./soobj/jcprepct.o ./soobj/jcsample.o ./soobj/jfdctint.o

@@ -1,0 +1,1 @@
+-dev bjc600 -include ./soobj/page -obj ./soobj/gdevcdj.o ./soobj/gdevpcl.o

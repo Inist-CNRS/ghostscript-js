@@ -1,0 +1,4 @@
+-obj -include ./soobj/fdecode
+-obj ./soobj/zfilter2.o
+-include ./soobj/cfe ./soobj/lzwe ./soobj/rle
+-oper zfilter2

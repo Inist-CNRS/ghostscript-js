@@ -1,0 +1,2 @@
+-obj ./soobj/inffast.o ./soobj/inflate.o ./soobj/inftrees.o ./soobj/uncompr.o
+-include ./soobj/zlibc.dev

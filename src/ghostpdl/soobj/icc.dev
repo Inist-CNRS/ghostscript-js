@@ -1,0 +1,4 @@
+-obj ./soobj/zicc.o
+-oper zicc_ll3
+-ps gs_icc
+-include ./soobj/sicclib ./soobj/cie

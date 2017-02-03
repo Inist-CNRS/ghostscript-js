@@ -1,0 +1,1 @@
+-dev eplcolor -include ./soobj/page -obj ./soobj/gdevescv.o

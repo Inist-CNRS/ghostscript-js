@@ -1,0 +1,2 @@
+-obj ./soobj/gxclipm.o ./soobj/gximage3.o ./soobj/gximage4.o ./soobj/gxmclip.o
+-imagetype 3 4

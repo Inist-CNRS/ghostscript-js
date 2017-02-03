@@ -1,0 +1,2 @@
+-obj ./soobj/zcolor1.o ./soobj/zht1.o
+-oper zcolor1 zht1

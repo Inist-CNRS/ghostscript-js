@@ -1,0 +1,5 @@
+-obj ./soobj/zcid.o ./soobj/zfcid.o ./soobj/zfcid0.o ./soobj/zfcid1.o
+-include ./soobj/psf1read ./soobj/psl2int
+-include ./soobj/type2 ./soobj/type42 ./soobj/zfrsd
+-oper zfcid0 zfcid1
+-ps gs_cidfn gs_cidcm gs_fntem gs_cidtt gs_cidfm

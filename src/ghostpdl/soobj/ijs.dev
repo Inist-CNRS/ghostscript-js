@@ -1,0 +1,2 @@
+-dev ijs -include ./soobj/page -obj ./soobj/gdevijs.o
+-include ./soobj/ijslib

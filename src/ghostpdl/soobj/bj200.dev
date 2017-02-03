@@ -1,0 +1,1 @@
+-dev bj200 -include ./soobj/page -obj ./soobj/gdevbj10.o

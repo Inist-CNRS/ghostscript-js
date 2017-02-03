@@ -1,0 +1,1 @@
+-dev npdl -include ./soobj/page -obj ./soobj/gdevnpdl.o ./soobj/gdevlprn.o

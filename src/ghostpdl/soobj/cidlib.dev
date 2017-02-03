@@ -1,0 +1,2 @@
+-obj ./soobj/gsfcid.o ./soobj/gsfcid2.o
+-include ./soobj/ttflib

@@ -1,0 +1,1 @@
+-obj ./soobj/siinterp.o ./soobj/siscale.o ./soobj/sidscale.o

@@ -1,0 +1,2 @@
+-obj ./soobj/sjbig2.o
+-include ./soobj/jbig2dec.dev

@@ -1,0 +1,2 @@
+-dev2 pxlcolor -obj ./soobj/gdevpx.o ./soobj/gdevpxut.o ./soobj/gdevpcl.o
+-include ./soobj/vector

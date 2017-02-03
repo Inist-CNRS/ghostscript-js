@@ -1,0 +1,3 @@
+-obj ./soobj/rtmisc.o ./soobj/rtraster.o
+-include ./soobj/pcl5base
+-init rtmisc rtraster

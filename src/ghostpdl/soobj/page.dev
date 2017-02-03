@@ -1,0 +1,2 @@
+-obj ./soobj/gdevprn.o ./soobj/gdevppla.o ./soobj/gdevmplt.o ./soobj/gdevflp.o ./soobj/gxdownscale.o ./soobj/claptrap.o ./soobj/claptrap-init.o ./soobj/claptrap-planar.o ./soobj/gdevoflt.o ./soobj/gdevsclass.o
+-include ./soobj/clist

@@ -1,0 +1,3 @@
+-obj ./soobj/zfsha2.o
+-include ./soobj/ssha2
+-oper zfsha2

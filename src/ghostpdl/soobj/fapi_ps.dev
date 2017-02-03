@@ -1,0 +1,3 @@
+-obj ./soobj/zfapi.o
+-oper zfapi
+-ps gs_fntem gs_fapi

@@ -1,0 +1,1 @@
+-dev md50Mono -include ./soobj/page -obj ./soobj/gdevalps.o

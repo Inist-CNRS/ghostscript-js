@@ -1,0 +1,1 @@
+-dev epl2120 -include ./soobj/page -obj ./soobj/gdevescv.o

@@ -1,0 +1,1 @@
+-dev photoex -include ./soobj/page -obj ./soobj/gdevphex.o

@@ -1,0 +1,2 @@
+-dev2 jpeggray -include ./soobj/page -obj ./soobj/gdevjpeg.o
+-include ./soobj/sdcte

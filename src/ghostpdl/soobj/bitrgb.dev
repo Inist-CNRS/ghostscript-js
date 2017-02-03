@@ -1,0 +1,2 @@
+-dev2 bitrgb -include ./soobj/page -obj ./soobj/gdevbit.o ./soobj/gdevdcrd.o
+-include ./soobj/cielib

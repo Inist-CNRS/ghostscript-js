@@ -1,0 +1,1 @@
+-dev okiibm -include ./soobj/page -obj ./soobj/gdevokii.o

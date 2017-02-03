@@ -1,0 +1,2 @@
+-obj ./soobj/xpsmem.o ./soobj/xpsutf.o ./soobj/xpscrc.o ./soobj/xpshash.o ./soobj/xpsjpeg.o ./soobj/xpspng.o ./soobj/xpstiff.o ./soobj/xpsjxr.o ./soobj/xpszip.o ./soobj/xpsxml.o ./soobj/xpsdoc.o ./soobj/xpspage.o ./soobj/xpsresource.o ./soobj/xpscommon.o ./soobj/xpsanalyze.o ./soobj/xpscolor.o ./soobj/xpsopacity.o ./soobj/xpspath.o ./soobj/xpstile.o ./soobj/xpsvisual.o ./soobj/xpsimage.o ./soobj/xpsgradient.o ./soobj/xpsglyphs.o ./soobj/xpsfont.o ./soobj/xpsttf.o ./soobj/xpscff.o ./soobj/xpsfapi.o
+-include ./soobj/afs ./soobj/pjl.dev ./soobj/expat.dev ./soobj/jpegxr.dev

@@ -1,0 +1,2 @@
+-dev cfax -obj ./soobj/gdevcfax.o
+-include ./soobj/fax

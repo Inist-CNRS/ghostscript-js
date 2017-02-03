@@ -1,0 +1,3 @@
+-obj -include ./soobj/cmyklib ./soobj/imasklib ./soobj/psl2cs
+-obj ./soobj/gspcolor.o ./soobj/gsptype1.o ./soobj/gxclip2.o
+-obj ./soobj/gxmclip.o ./soobj/gxp1fill.o ./soobj/gxpcmap.o

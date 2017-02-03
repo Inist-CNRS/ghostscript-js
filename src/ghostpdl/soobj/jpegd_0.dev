@@ -1,0 +1,5 @@
+-obj ./soobj/jdapimin.o ./soobj/jdapistd.o ./soobj/jdinput.o ./soobj/jdhuff.o
+-include ./soobj/jpegc0.dev
+-obj ./soobj/jdcoefct.o ./soobj/jdcolor.o
+-obj ./soobj/jddctmgr.o ./soobj/jdhuff.o ./soobj/jdmainct.o ./soobj/jdmarker.o
+-obj ./soobj/jdmaster.o ./soobj/jdpostct.o ./soobj/jdsample.o ./soobj/jidctint.o ./soobj/jdarith.o

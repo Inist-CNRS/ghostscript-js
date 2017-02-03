@@ -15,6 +15,9 @@
   "scripts": {
     "test": "semistandard && mocha"
   },
+  "dependencies": {
+    "nan": "^2.3.3"
+  },
   "devDependencies": {
     "chai": "^3.4.0",
     "mocha": "^3.2.0",

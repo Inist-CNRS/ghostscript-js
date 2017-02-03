@@ -1,0 +1,2 @@
+-dev2 pngmono -include ./soobj/page -obj ./soobj/gdevpng.o ./soobj/gdevpccm.o
+-include ./soobj/libpng

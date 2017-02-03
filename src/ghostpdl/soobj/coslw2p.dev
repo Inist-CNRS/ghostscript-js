@@ -1,0 +1,1 @@
+-dev coslw2p -include ./soobj/page -obj ./soobj/gdevcslw.o

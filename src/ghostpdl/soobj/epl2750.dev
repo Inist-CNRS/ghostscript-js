@@ -1,0 +1,1 @@
+-dev epl2750 -include ./soobj/page -obj ./soobj/gdevescv.o

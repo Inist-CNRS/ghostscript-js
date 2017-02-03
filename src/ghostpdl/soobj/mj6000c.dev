@@ -1,0 +1,1 @@
+-dev mj6000c -include ./soobj/page -obj ./soobj/gdevmjc.o ./soobj/gdevpcl.o

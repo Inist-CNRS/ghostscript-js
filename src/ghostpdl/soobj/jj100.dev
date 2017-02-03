@@ -1,0 +1,1 @@
+-dev jj100 -include ./soobj/page -obj ./soobj/gdevj100.o ./soobj/gdevprn.o

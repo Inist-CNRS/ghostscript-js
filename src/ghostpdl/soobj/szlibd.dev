@@ -1,0 +1,2 @@
+-obj ./soobj/szlibc.o ./soobj/szlibd.o
+-include ./soobj/zlibd.dev

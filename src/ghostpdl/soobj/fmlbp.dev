@@ -1,0 +1,1 @@
+-dev fmlbp -include ./soobj/page -obj ./soobj/gdevfmlbp.o ./soobj/gdevprn.o

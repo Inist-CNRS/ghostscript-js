@@ -1,0 +1,9 @@
+-obj ./soobj/gxclist.o ./soobj/gxclbits.o ./soobj/gxclpage.o
+-obj ./soobj/gxclrast.o ./soobj/gxclread.o ./soobj/gxclrect.o
+-obj ./soobj/gxclutil.o ./soobj/gsparams.o ./soobj/gxshade6.o
+-obj ./soobj/gsroptab.o ./soobj/gsroprun.o ./soobj/stream.o
+-obj ./soobj/gxclimag.o ./soobj/gxclpath.o ./soobj/gxdhtserial.o
+-obj ./soobj/gxclthrd.o ./soobj/gsmchunk.o ./soobj/gsmemlok.o
+-include ./soobj/clfile
+-include ./soobj/clmemory ./soobj/posync.dev
+-include ./soobj/cfe ./soobj/cfd ./soobj/rle ./soobj/rld ./soobj/psl2cs

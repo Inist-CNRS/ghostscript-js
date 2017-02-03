@@ -1,0 +1,23 @@
+-obj ./soobj/gpmisc.o ./soobj/stream.o ./soobj/strmio.o
+./soobj/gsalloc.o ./soobj/gsalpha.o ./soobj/gxdownscale.o ./soobj/gxdownscale.o ./soobj/claptrap.o ./soobj/claptrap-init.o ./soobj/claptrap-planar.o ./soobj/gdevprn.o ./soobj/gdevflp.o ./soobj/gdevkrnlsclass.o
+./soobj/gdevmplt.o ./soobj/gsbitcom.o ./soobj/gsbitops.o ./soobj/gsbittab.o ./soobj/gdevoflt.o ./soobj/gdevsclass.o
+./soobj/gscedata.o ./soobj/gscencs.o ./soobj/gschar.o ./soobj/gscolor.o
+./soobj/gscoord.o ./soobj/gscparam.o ./soobj/gscspace.o ./soobj/gscicach.o ./soobj/gsovrc.o ./soobj/gxoprect.o
+./soobj/gsdevice.o ./soobj/gsdevmem.o ./soobj/gsdparam.o ./soobj/gsdfilt.o
+./soobj/gsfname.o ./soobj/gsfont.o ./soobj/gsgdata.o ./soobj/gsgcache.o
+./soobj/gsht.o ./soobj/gshtscr.o
+./soobj/gsimage.o ./soobj/gsimpath.o ./soobj/gsinit.o
+./soobj/gsiodev.o ./soobj/gsgstate.o ./soobj/gsline.o
+./soobj/gsmalloc.o ./soobj/memento.o ./soobj/bobbin.o ./soobj/gsmatrix.o
+./soobj/gsmemory.o ./soobj/gsmemret.o ./soobj/gsmisc.o ./soobj/gsnotify.o ./soobj/gslibctx.o
+./soobj/gspaint.o ./soobj/gsparam.o ./soobj/gspath.o
+./soobj/gsserial.o ./soobj/gsstate.o ./soobj/gstext.o ./soobj/gsutil.o ./soobj/gssprintf.o ./soobj/gsstrtok.o ./soobj/gsstrl.o
+-comp overprint
+-comp pdf14trans
+-init gshtscr
+-include ./soobj/gsiodevs
+-include ./soobj/translib
+-include ./soobj/clist
+-include ./soobj/romfs1
+./soobj/gxfapi
+-init fapi

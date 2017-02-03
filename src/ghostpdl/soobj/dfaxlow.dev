@@ -1,0 +1,2 @@
+-dev dfaxlow -obj ./soobj/gdevdfax.o
+-include ./soobj/tfax

@@ -1,0 +1,4 @@
+-obj ./soobj/gxfapi.o
+-include ./soobj/fapiu
+-include ./soobj/fapif1
+-include ./soobj/fapib

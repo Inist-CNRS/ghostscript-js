@@ -1,0 +1,1 @@
+-dev md2k -include ./soobj/page -obj ./soobj/gdevmd2k.o

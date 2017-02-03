@@ -1,0 +1,2 @@
+-obj ./soobj/sjpx_openjpeg.o
+-include ./soobj/openjpeg.dev

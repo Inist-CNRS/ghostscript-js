@@ -1,0 +1,1 @@
+-obj ./soobj/plchar.o ./soobj/plfont.o ./soobj/plftable.o ./soobj/pllfont.o

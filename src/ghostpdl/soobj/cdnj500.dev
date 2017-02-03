@@ -1,0 +1,1 @@
+-dev2 cdnj500 -include ./soobj/page -obj ./soobj/gdevcd8.o ./soobj/gdevpcl.o

@@ -1,0 +1,1 @@
+-dev lp2200 -include ./soobj/page -obj ./soobj/gdevescv.o

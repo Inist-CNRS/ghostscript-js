@@ -1,0 +1,1 @@
+-dev cif -include ./soobj/page -obj ./soobj/gdevcif.o

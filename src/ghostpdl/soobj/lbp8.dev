@@ -1,0 +1,1 @@
+-dev lbp8 -include ./soobj/page -obj ./soobj/gdevlbp8.o

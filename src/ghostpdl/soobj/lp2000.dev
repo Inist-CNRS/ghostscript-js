@@ -1,0 +1,1 @@
+-dev lp2000 -include ./soobj/page -obj ./soobj/gdevespg.o ./soobj/gdevlprn.o ./soobj/gdevlips.o

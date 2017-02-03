@@ -1,0 +1,2 @@
+-obj ./soobj/gscie.o ./soobj/gsciemap.o ./soobj/gscscie.o
+./soobj/gscrd.o ./soobj/gscrdp.o ./soobj/gxctable.o

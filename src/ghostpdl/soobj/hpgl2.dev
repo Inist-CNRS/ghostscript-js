@@ -1,0 +1,8 @@
+-obj ./soobj/pcfsel.o
+./soobj/pgdraw.o ./soobj/pggeom.o ./soobj/pginit.o
+./soobj/pgparse.o ./soobj/pgmisc.o
+./soobj/pgframe.o ./soobj/pgconfig.o ./soobj/pgvector.o
+./soobj/pgpoly.o ./soobj/pglfill.o ./soobj/pgchar.o
+./soobj/pglabel.o ./soobj/pgfdata.o ./soobj/pgfont.o
+-init pginit pgframe pgconfig pgvector
+-init pgpoly pglfill pgchar pglabel

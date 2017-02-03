@@ -1,0 +1,1 @@
+-dev mgr8 -include ./soobj/page -obj ./soobj/gdevmgr.o ./soobj/gdevpccm.o

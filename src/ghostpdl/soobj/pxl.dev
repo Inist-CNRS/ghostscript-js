@@ -1,0 +1,6 @@
+-obj ./soobj/pxbfont.o ./soobj/pxerrors.o ./soobj/pxparse.o
+./soobj/pxstate.o ./soobj/pxptable.o ./soobj/pxpthr.o ./soobj/pxvalue.o
+./soobj/pxffont.o ./soobj/pxfont.o ./soobj/pxgstate.o ./soobj/pximage.o
+./soobj/pxink.o ./soobj/pxpaint.o ./soobj/pxsessio.o ./soobj/pxstream.o
+./soobj/pxvendor.o
+-include ./soobj/pl ./soobj/pjl ./soobj/afs

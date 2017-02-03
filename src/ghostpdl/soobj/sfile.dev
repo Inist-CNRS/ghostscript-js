@@ -1,0 +1,1 @@
+-obj ./soobj/sfxstdio.o ./soobj/sfxcommon.o ./soobj/stream.o

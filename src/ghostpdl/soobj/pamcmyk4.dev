@@ -1,0 +1,1 @@
+-dev2 pamcmyk4 -include ./soobj/page -obj ./soobj/gdevpbm.o ./soobj/gdevppla.o ./soobj/gdevmpla.o

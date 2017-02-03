@@ -1,0 +1,3 @@
+-include ./soobj/unix_
+./soobj/pipe.dev ./soobj/gsnogc.dev ./soobj/htxlib.dev ./soobj/psl3lib.dev ./soobj/psl2lib.dev ./soobj/dps2lib.dev ./soobj/path1lib.dev ./soobj/patlib.dev ./soobj/psl2cs.dev ./soobj/rld.dev ./soobj/gxfapiu.dev ./soobj/ttflib.dev ./soobj/cielib.dev ./soobj/pipe.dev ./soobj/htxlib.dev ./soobj/sdct.dev ./soobj/libpng.dev ./soobj/seprlib.dev ./soobj/translib.dev ./soobj/cidlib.dev ./soobj/psf0lib.dev ./soobj/psf1lib.dev ./soobj/psf2lib.dev ./soobj/lzwd.dev ./soobj/sicclib.dev ./soobj/sjbig2.dev ./soobj/sjpx.dev ./soobj/ramfs.dev
+

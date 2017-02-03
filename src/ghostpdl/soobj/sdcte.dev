@@ -1,0 +1,2 @@
+-obj ./soobj/sdctc.o ./soobj/sjpegc.o ./soobj/sdcte.o ./soobj/sjpege.o
+-include ./soobj/jpege.dev

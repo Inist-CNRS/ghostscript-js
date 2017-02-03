@@ -1,0 +1,2 @@
+-dev2 tiff32nc -include ./soobj/page -obj ./soobj/gdevtsep.o ./soobj/gsequivc.o ./soobj/minftrsz.o
+-include ./soobj/tiffs -include ./soobj/libtiff

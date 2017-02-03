@@ -1,0 +1,1 @@
+-dev pjetxl -include ./soobj/page -obj ./soobj/gdevpjet.o ./soobj/gdevpcl.o

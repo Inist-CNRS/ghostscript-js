@@ -1,0 +1,2 @@
+-dev2 xpswrite -obj ./soobj/gdevxps.o
+-include ./soobj/vector -include ./soobj/libtiff

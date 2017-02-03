@@ -1,0 +1,3 @@
+-obj -include ./soobj/szlibe ./soobj/szlibd
+-obj ./soobj/zfzlib.o
+-oper zfzlib

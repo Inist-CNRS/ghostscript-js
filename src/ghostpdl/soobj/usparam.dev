@@ -1,0 +1,2 @@
+-obj ./soobj/zusparam.o
+-oper zusparam -replace ./soobj/nousparm

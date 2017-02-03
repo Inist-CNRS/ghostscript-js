@@ -1,0 +1,2 @@
+-obj -include ./soobj/psbase ./soobj/bcp ./soobj/path1 ./soobj/type1
+-emulator PostScript PostScriptLevel1

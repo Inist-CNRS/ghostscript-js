@@ -1,0 +1,1 @@
+-dev bjccolor -include ./soobj/page -obj ./soobj/gdevbjc_.o ./soobj/gdevbjca.o

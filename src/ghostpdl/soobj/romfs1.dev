@@ -1,0 +1,2 @@
+-obj ./soobj/gsiorom.o
+-iodev rom

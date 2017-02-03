@@ -1,0 +1,1 @@
+-dev2 plang -include ./soobj/page -obj ./soobj/gdevplan.o ./soobj/gdevppla.o ./soobj/gdevmpla.o

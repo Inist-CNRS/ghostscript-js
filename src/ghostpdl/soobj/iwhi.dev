@@ -1,0 +1,1 @@
+-dev iwhi -include ./soobj/page -obj ./soobj/gdevadmp.o

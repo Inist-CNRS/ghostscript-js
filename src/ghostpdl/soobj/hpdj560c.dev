@@ -1,0 +1,1 @@
+-dev hpdj560c -include ./soobj/page -obj ./soobj/gdeveprn.o ./soobj/pagecount.o ./soobj/mediasize.o ./soobj/eprnparm.o ./soobj/eprnrend.o ./soobj/eprnfs.o ./soobj/gdevpcl3.o ./soobj/pclcap.o ./soobj/pclgen.o ./soobj/pclcomp.o ./soobj/pclsize.o

@@ -1,0 +1,2 @@
+-obj ./soobj/gdevtifs.o ./soobj/minftrsz.o
+-include ./soobj/page -include ./soobj/libtiff

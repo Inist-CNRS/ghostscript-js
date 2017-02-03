@@ -1,0 +1,2 @@
+-obj ./soobj/gschar0.o ./soobj/gsfont0.o
+-include ./soobj/cmaplib

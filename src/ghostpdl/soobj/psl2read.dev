@@ -1,0 +1,3 @@
+-obj ./soobj/zcolor2.o ./soobj/zcsindex.o ./soobj/zht2.o ./soobj/zimage2.o
+-include ./soobj/psl2int ./soobj/dps2read
+-oper zht2_l2

@@ -1,0 +1,1 @@
+-dev st800 -include ./soobj/page -obj ./soobj/gdevescp.o

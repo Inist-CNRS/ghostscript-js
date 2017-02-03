@@ -1,0 +1,1 @@
+-dev lj5mono -include ./soobj/page -obj ./soobj/gdevlj56.o ./soobj/gdevpxut.o ./soobj/gdevpcl.o

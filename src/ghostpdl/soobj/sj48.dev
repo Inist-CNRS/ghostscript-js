@@ -1,0 +1,1 @@
+-dev sj48 -include ./soobj/page -obj ./soobj/gdevsj48.o

@@ -1,0 +1,1 @@
+-dev miff24 -include ./soobj/page -obj ./soobj/gdevmiff.o

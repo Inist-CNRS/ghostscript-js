@@ -1,0 +1,3 @@
+-obj ./soobj/gsioram.o ./soobj/ramfs.o
+-iodev ram
+-obj ./soobj/ramfs.o

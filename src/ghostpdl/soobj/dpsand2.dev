@@ -1,0 +1,1 @@
+-obj -include ./soobj/btoken ./soobj/color ./soobj/upath ./soobj/dps2lib ./soobj/dps2read

@@ -1,0 +1,3 @@
+-obj ./soobj/zcfont.o ./soobj/zfont0.o
+-oper zcfont zfont0
+-include ./soobj/cmapread

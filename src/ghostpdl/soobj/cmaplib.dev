@@ -1,0 +1,2 @@
+-obj ./soobj/gsfcmap.o ./soobj/gsfcmap1.o
+-include ./soobj/cidlib

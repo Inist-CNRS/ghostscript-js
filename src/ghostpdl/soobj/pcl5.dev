@@ -1,0 +1,12 @@
+-obj ./soobj/pcfsel.o
+./soobj/pcjob.o ./soobj/pcpage.o ./soobj/pcursor.o
+./soobj/pcfont.o ./soobj/pctext.o
+./soobj/pcsymbol.o
+./soobj/pcsfont.o ./soobj/pcmacros.o
+./soobj/pcrect.o ./soobj/pcstatus.o ./soobj/pcmisc.o ./soobj/pcfontpg.o
+-include ./soobj/rtlbase
+-init pcjob pcpage pcfont pctext
+-init pcsymbol pcsfont pcmacros
+-init pcrect rtraster pcstatus
+-init pcmisc
+-init pcursor

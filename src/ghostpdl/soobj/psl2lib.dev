@@ -1,0 +1,2 @@
+-obj -include ./soobj/colimlib ./soobj/psl2cs
+-imageclass 2_fracs

@@ -1,0 +1,3 @@
+-obj ./soobj/pccprint.o
+-include ./soobj/pcl5 ./soobj/rtlbasec
+-init pccprint rtgmode

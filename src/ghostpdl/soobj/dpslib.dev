@@ -1,0 +1,3 @@
+-obj ./soobj/gsdps.o ./soobj/gximage2.o
+-imagetype 2
+-include ./soobj/cspixlib

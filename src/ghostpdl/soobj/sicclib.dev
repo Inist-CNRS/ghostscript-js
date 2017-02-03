@@ -1,0 +1,3 @@
+-obj ./soobj/gsicc.o
+./soobj/gsicc_manage.o ./soobj/gsicc_cache.o ./soobj/gsicc_lcms2.o ./soobj/gsicc_profilecache.o ./soobj/gsicc_create.o ./soobj/gsicc_nocm.o ./soobj/gsicc_replacecm.o ./soobj/gsicc_monitorcm.o
+-include ./soobj/lcms2.dev

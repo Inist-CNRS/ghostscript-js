@@ -1,0 +1,2 @@
+-dev2 faxg32d -obj -include ./soobj/fax
+-include ./soobj/libtiff

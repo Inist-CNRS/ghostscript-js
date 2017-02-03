@@ -1,0 +1,5 @@
+-obj 
+-dev2 nullpage
+-include ./soobj/libs ./soobj/libx ./soobj/libd
+-include ./soobj/iscale ./soobj/roplib
+-include ./soobj/strdline
