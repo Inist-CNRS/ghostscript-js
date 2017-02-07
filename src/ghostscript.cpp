@@ -1,6 +1,8 @@
 #include <nan.h>
 #include <chrono>
 #include <thread>
+#include <iostream>
+#include <fstream>
 #include "ghostpdl/base/gserrors.h"
 #include "ghostpdl/psi/iapi.h"
 
@@ -21,7 +23,7 @@ class Ghostscript : public AsyncWorker {
 
   // Executes in worker thread
   void Execute() {
-    // std::this_thread::sleep_for(chrono::milliseconds(1000));
+    std::this_thread::sleep_for(chrono::milliseconds(1000));
     gsargv[0] = (char *) "gs";
     gsargv[1] = (char *) "-q";
     gsargv[2] = (char *) "-dNOPAUSE";
@@ -32,29 +34,25 @@ class Ghostscript : public AsyncWorker {
     gsargv[7] = (char *) "test.pdf";
     gsargc = 8;
 
-    code = gsapi_new_instance(&minst, NULL);
-    // // std::printf("code : %d\n", code);
-    // // std::printf("argc : %d\n", argc);
-    // // std::printf("argv[1] : %s\n", argv[1]);
-    //
-    // if (code < 0)
-    //     return 1;
-    code = gsapi_set_arg_encoding(minst, GS_ARG_ENCODING_UTF8);
+    gscode = gsapi_new_instance(&minst, NULL);
+    if (gscode < 0) return;
+    gscode = gsapi_set_arg_encoding(minst, GS_ARG_ENCODING_UTF8);
 
-    if (code == 0)
-        code = gsapi_init_with_args(minst, gsargc, gsargv);
-    code1 = gsapi_exit(minst);
+    if (gscode == 0)
+        gscode = gsapi_init_with_args(minst, gsargc, gsargv);
+    gscode1 = gsapi_exit(minst);
 
-    if ((code == 0) || (code == gs_error_Quit))
-        code = code1;
+    if ((gscode == 0) || (gscode == gs_error_Quit))
+        gscode = gscode1;
 
     gsapi_delete_instance(minst);
+
   }
   // Executes in event loop
   void HandleOKCallback () {
-    if ((code == 0) || (code == gs_error_Quit)) {
+    if ((gscode == 0) || (gscode == gs_error_Quit)) {
       Local<String> allOK = Nan::New<String>("All is ok !").ToLocalChecked();
-      Local<Value> argv[] = { allOK };
+      Local<Value> argv[] = { Nan::Null(), allOK };
       callback->Call(2, argv);
     } else {
       Local<String> error = Nan::New<String>("Something is wrong, dude !").ToLocalChecked();
@@ -64,10 +62,11 @@ class Ghostscript : public AsyncWorker {
   }
 
   private:
-    int code, code1;
+    void *minst;
+    int gscode = 0;
+    int gscode1;
     char *gsargv[8];
     int gsargc;
-    void *minst;
 };
 
 NAN_METHOD(exec) {
