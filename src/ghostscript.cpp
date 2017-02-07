@@ -1,8 +1,4 @@
 #include <nan.h>
-#include <chrono>
-#include <thread>
-#include <iostream>
-#include <fstream>
 #include "ghostpdl/base/gserrors.h"
 #include "ghostpdl/psi/iapi.h"
 
@@ -23,7 +19,6 @@ class Ghostscript : public AsyncWorker {
 
   // Executes in worker thread
   void Execute() {
-    std::this_thread::sleep_for(chrono::milliseconds(1000));
     gsargv[0] = (char *) "gs";
     gsargv[1] = (char *) "-q";
     gsargv[2] = (char *) "-dNOPAUSE";
