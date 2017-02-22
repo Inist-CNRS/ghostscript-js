@@ -16,6 +16,7 @@
     "test": "semistandard && mocha"
   },
   "dependencies": {
+    "cmake-js": "^3.4.1",
     "nan": "^2.3.3"
   },
   "devDependencies": {
