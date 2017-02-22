@@ -34,3 +34,6 @@ node_modules
 
 # Webstorm IDE
 .idea
+
+# CMake debug
+cmake-build-debug
