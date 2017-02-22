@@ -62,3 +62,6 @@ gs.batch()
 * exec - Promise (ES6)
 * compatibility - number
 * pdfsettings - string
+
+## Dev
+i'm working on a nodejs native addon for ghostscript. See ghostscript-node-addon branch
