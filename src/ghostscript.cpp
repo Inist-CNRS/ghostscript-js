@@ -31,8 +31,7 @@ public:
         if (gscode < 0) return;
         gscode = gsapi_set_arg_encoding(minst, GS_ARG_ENCODING_UTF8);
 
-        if (gscode == 0)
-            gscode = gsapi_init_with_args(minst, gsargc, gsargv);
+        if (gscode == 0) gscode = gsapi_init_with_args(minst, gsargc, gsargv);
         gscode1 = gsapi_exit(minst);
 
         if ((gscode == 0) || (gscode == gs_error_Quit))
