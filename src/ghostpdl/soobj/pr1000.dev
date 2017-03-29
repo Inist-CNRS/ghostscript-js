@@ -1,1 +1,0 @@
--dev pr1000 -include ./soobj/page -obj ./soobj/gdevp201.o ./soobj/gdevprn.o

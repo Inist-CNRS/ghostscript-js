@@ -1,1 +1,0 @@
--dev2 fs600 -include ./soobj/page -obj ./soobj/gdevdjet.o ./soobj/gdevdljm.o ./soobj/gdevpcl.o

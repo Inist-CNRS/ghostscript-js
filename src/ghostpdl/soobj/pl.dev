@@ -1,7 +1,0 @@
--obj ./soobj/pldict.o ./soobj/pldraw.o ./soobj/plsymbol.o ./soobj/plvalue.o ./soobj/plht.o
-./soobj/plvocab.o ./soobj/pltop.o ./soobj/pltoputl.o
-./soobj/plplatf.o ./soobj/plalloc.o
-./soobj/plufstlp.o
-./soobj/gsargs.o
--include ./soobj/fapi_pl
--include ./soobj/afs

@@ -1,1 +1,0 @@
--dev lj250 -include ./soobj/page -obj ./soobj/gdevpjet.o ./soobj/gdevpcl.o

@@ -1,1 +1,0 @@
--dev psdcmykog -include ./soobj/page -obj ./soobj/gdevcmykog.o

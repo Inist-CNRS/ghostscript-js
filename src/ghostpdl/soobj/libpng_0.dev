@@ -1,5 +1,0 @@
--obj ./soobj/png.o ./soobj/pngmem.o ./soobj/pngerror.o ./soobj/pngset.o
-./soobj/pngtrans.o ./soobj/pngwrite.o ./soobj/pngwtran.o ./soobj/pngwutil.o ./soobj/pngwio.o
-./soobj/pngread.o ./soobj/pngrutil.o ./soobj/pngrtran.o ./soobj/pngrio.o ./soobj/pngget.o
-./soobj/pngwio.o
--include ./soobj/zlibe.dev ./soobj/crc32.dev

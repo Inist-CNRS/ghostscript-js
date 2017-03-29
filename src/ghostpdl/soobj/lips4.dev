@@ -1,1 +1,0 @@
--dev lips4 -include ./soobj/page -obj ./soobj/gdevl4r.o ./soobj/gdevlips.o ./soobj/gdevlprn.o

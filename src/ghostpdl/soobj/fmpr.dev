@@ -1,1 +1,0 @@
--dev fmpr -include ./soobj/page -obj ./soobj/gdevfmpr.o ./soobj/gdevprn.o

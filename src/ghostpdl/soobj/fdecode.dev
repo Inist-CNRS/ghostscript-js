@@ -1,3 +1,0 @@
--obj ./soobj/scantab.o ./soobj/scfparam.o ./soobj/sfilter2.o ./soobj/zfdecode.o
--include ./soobj/cfd ./soobj/lzwd ./soobj/pdiff ./soobj/pngp ./soobj/rld
--oper zfdecode

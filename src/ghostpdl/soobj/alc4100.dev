@@ -1,1 +1,0 @@
--dev alc4100 -include ./soobj/page -obj ./soobj/gdevescv.o

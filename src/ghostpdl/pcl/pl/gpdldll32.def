@@ -1,6 +1,0 @@
-;	'GhostPDL Interpreter DLL'
-LIBRARY		GPDLDLL32
-EXPORTS	
-;		DllEntryPoint
-;		DllMain
-		pl_main_aux	@1

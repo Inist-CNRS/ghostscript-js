@@ -1,1 +1,0 @@
--dev escpage -include ./soobj/page -obj ./soobj/gdevespg.o ./soobj/gdevlprn.o ./soobj/gdevlips.o

@@ -1,1 +1,0 @@
--dev display -obj ./soobj/gdevdsp.o ./soobj/gdevpccm.o ./soobj/gdevdevn.o ./soobj/gsequivc.o ./soobj/gdevdcrd.o

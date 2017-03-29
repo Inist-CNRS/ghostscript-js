@@ -1,7 +1,0 @@
--obj ./soobj/zfunc3.o ./soobj/zfsample.o
-./soobj/zimage3.o ./soobj/zmisc3.o ./soobj/zcolor3.o ./soobj/zshade.o
--oper zfsample
--oper zimage3 zmisc3 zcolor3_l3 zshade
--functiontype 2 3
--ps gs_ll3
--include ./soobj/frsd ./soobj/fzlib

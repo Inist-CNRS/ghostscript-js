@@ -1,3 +1,0 @@
--obj ./soobj/gdevtfax.o ./soobj/minftrsz.o
--include ./soobj/cfe ./soobj/lzwe ./soobj/rle
--include ./soobj/fax ./soobj/tiffs -include ./soobj/libtiff

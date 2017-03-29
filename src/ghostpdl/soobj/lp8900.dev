@@ -1,1 +1,0 @@
--dev lp8900 -include ./soobj/page -obj ./soobj/gdevescv.o

@@ -1,7 +1,0 @@
--obj ./soobj/gdevpsdi.o ./soobj/gdevpsdp.o
--obj ./soobj/gdevpsds.o ./soobj/gdevpsdu.o
--obj ./soobj/scfparam.o ./soobj/sdcparam.o ./soobj/sdeparam.o
--obj ./soobj/spprint.o ./soobj/spsdf.o ./soobj/sstring.o
--obj ./soobj/gsparamx.o
--include ./soobj/vector.dev ./soobj/pngp.dev ./soobj/seexec.dev
--include ./soobj/sdcte.dev ./soobj/slzwe.dev ./soobj/szlibe.dev

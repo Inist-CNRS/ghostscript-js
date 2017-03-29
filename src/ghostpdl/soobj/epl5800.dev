@@ -1,1 +1,0 @@
--dev epl5800 -include ./soobj/page -obj ./soobj/gdevescv.o

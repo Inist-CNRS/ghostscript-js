@@ -1,3 +1,0 @@
--obj ./soobj/gscolor3.o ./soobj/gsfunc3.o ./soobj/gsptype2.o ./soobj/gsshade.o
--obj ./soobj/gxshade.o ./soobj/gxshade1.o ./soobj/gxshade4.o ./soobj/gxshade6.o
--include ./soobj/funclib ./soobj/patlib

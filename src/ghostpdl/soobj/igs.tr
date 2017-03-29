@@ -1,1 +1,0 @@
--include ./soobj/psl3.dev ./soobj/pdf.dev ./soobj/dpsnext.dev ./soobj/epsf.dev ./soobj/ttfont.dev ./soobj/utf8.dev ./soobj/fapi_ps.dev ./soobj/jpx.dev ./soobj/rasterop.dev ./soobj/jbig2.dev ./soobj/gs_pdfwr.dev

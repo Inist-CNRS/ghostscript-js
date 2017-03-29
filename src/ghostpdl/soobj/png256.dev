@@ -1,2 +1,0 @@
--dev2 png256 -include ./soobj/page -obj ./soobj/gdevpng.o ./soobj/gdevpccm.o
--include ./soobj/libpng

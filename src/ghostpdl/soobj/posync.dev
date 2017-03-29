@@ -1,2 +1,0 @@
--obj ./soobj/gp_psync.o
--replace ./soobj/nosync

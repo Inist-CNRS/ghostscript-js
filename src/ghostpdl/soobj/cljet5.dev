@@ -1,1 +1,0 @@
--dev cljet5 -include ./soobj/page -obj ./soobj/gdevclj.o ./soobj/gdevpcl.o

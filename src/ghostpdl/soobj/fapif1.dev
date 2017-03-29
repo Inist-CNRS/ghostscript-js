@@ -1,4 +1,0 @@
--obj ./soobj/fapi_ft.o ./soobj/write_t1.o
-./soobj/write_t2.o ./soobj/wrfont.o
--include ./soobj/freetype
--fapi fapi_ft

@@ -1,6 +1,0 @@
--obj ./soobj/gdevabuf.o ./soobj/gdevdbit.o ./soobj/gdevddrw.o ./soobj/gdevdflt.o
-./soobj/gdevdgbr.o ./soobj/gdevnfwd.o ./soobj/gdevmem.o ./soobj/gdevplnx.o
-./soobj/gdevm1.o ./soobj/gdevm2.o ./soobj/gdevm4.o ./soobj/gdevm8.o
-./soobj/gdevm16.o ./soobj/gdevm24.o ./soobj/gdevm32.o ./soobj/gdevmpla.o
-./soobj/gdevm40.o ./soobj/gdevm48.o ./soobj/gdevm56.o ./soobj/gdevm64.o ./soobj/gdevmx.o
-./soobj/gdevdsha.o ./soobj/gxscanc.o

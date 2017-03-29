@@ -1,4 +1,0 @@
--obj ./soobj/zfjpx_openjpeg.o
--include ./soobj/sjpx
--include ./soobj/openjpeg
--oper zfjpx

@@ -1,1 +1,0 @@
--dev eps9mid -include ./soobj/page -obj ./soobj/gdevepsn.o

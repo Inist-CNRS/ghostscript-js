@@ -1,4 +1,0 @@
--obj ./soobj/ibnum.o ./soobj/zcharx.o
--include ./soobj/dps2int
--oper ireclaim_l2 zcharx
--ps gs_dps2

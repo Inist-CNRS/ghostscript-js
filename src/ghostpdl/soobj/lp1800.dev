@@ -1,1 +1,0 @@
--dev lp1800 -include ./soobj/page -obj ./soobj/gdevescv.o

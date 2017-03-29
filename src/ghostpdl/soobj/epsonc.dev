@@ -1,1 +1,0 @@
--dev epsonc -include ./soobj/page -obj ./soobj/gdevepsc.o

@@ -1,3 +1,0 @@
--obj ./soobj/zdevice2.o ./soobj/zmedia2.o
--oper zdevice2_l2 zmedia2_l2
--ps gs_setpd

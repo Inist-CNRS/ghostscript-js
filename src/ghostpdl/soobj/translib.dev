@@ -1,4 +1,0 @@
--obj ./soobj/gstrans.o ./soobj/gximag3x.o ./soobj/gxblend.o ./soobj/gxblend1.o ./soobj/gdevp14.o ./soobj/gdevdevn.o ./soobj/gsequivc.o ./soobj/gdevdcrd.o ./soobj/gscolorbuffer.o
--imagetype 3x
--include ./soobj/cspixlib ./soobj/bboxutil
--include ./soobj/cielib.dev

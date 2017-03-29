@@ -1,1 +1,0 @@
--dev lxm3200 -include ./soobj/page -obj ./soobj/gdevlx32.o

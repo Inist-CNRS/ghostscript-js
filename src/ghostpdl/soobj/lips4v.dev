@@ -1,2 +1,0 @@
--dev lips4v -obj ./soobj/gdevl4v.o ./soobj/gdevlips.o
--include ./soobj/vector

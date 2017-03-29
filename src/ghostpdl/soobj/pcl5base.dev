@@ -1,3 +1,0 @@
--obj ./soobj/pcommand.o ./soobj/pcparse.o ./soobj/pcdraw.o
--include ./soobj/pl ./soobj/pjl ./soobj/afs
--init pcparse

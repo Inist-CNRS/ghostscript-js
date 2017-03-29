@@ -1,3 +1,0 @@
--obj ./soobj/ztrans.o
--oper ztrans1 ztrans2
--include ./soobj/psl2read ./soobj/translib

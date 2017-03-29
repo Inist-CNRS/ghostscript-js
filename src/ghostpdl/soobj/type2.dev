@@ -1,3 +1,0 @@
--obj ./soobj/zchar2.o ./soobj/zfont2.o
--oper zchar2 zfont2
--include ./soobj/type1 ./soobj/psf2lib

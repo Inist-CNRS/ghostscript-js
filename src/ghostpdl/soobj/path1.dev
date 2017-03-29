@@ -1,3 +1,0 @@
--obj ./soobj/zpath1.o
--include ./soobj/path1lib
--oper zpath1

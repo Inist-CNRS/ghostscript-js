@@ -1,1 +1,0 @@
--dev lp9000b -include ./soobj/page -obj ./soobj/gdevescv.o

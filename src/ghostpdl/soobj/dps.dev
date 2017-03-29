@@ -1,4 +1,0 @@
--obj -include ./soobj/dpslib ./soobj/psl2
--obj ./soobj/zdps.o ./soobj/zcontext.o
--oper zcontext1 zcontext2 zdps
--ps gs_dps

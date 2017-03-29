@@ -1,2 +1,0 @@
--dev2 tiffsep -include ./soobj/page -obj ./soobj/gdevtsep.o ./soobj/gsequivc.o ./soobj/minftrsz.o ./soobj/gdevdevn.o ./soobj/gsequivc.o ./soobj/gdevppla.o
--include ./soobj/tiffs -include ./soobj/libtiff

@@ -1,3 +1,0 @@
--obj ./soobj/zcie.o ./soobj/zcrd.o
--oper zcrd_l2
--include ./soobj/cielib

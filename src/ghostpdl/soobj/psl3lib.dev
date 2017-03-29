@@ -1,3 +1,0 @@
--obj ./soobj/gsclipsr.o ./soobj/gscdevn.o ./soobj/gxdevndi.o
--include ./soobj/imasklib ./soobj/shadelib
--include ./soobj/gxfapiu

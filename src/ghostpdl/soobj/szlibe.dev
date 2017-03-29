@@ -1,2 +1,0 @@
--obj ./soobj/szlibc.o ./soobj/szlibe.o
--include ./soobj/zlibe.dev

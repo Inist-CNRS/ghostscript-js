@@ -1,3 +1,0 @@
--obj ./soobj/zchar32.o ./soobj/zfont32.o
--oper zchar32 zfont32
--ps gs_res gs_typ32

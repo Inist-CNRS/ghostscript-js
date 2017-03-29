@@ -1,1 +1,0 @@
--dev m8510 -include ./soobj/page -obj ./soobj/gdev8510.o

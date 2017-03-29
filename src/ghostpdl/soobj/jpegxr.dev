@@ -1,1 +1,0 @@
--obj ./soobj/algo.o ./soobj/api.o ./soobj/w_emit.o ./soobj/flags.o ./soobj/init.o ./soobj/io.o ./soobj/cr_parse.o ./soobj/cw_emit.o ./soobj/r_parse.o ./soobj/jpegxr_pixelformat.o ./soobj/r_strip.o ./soobj/r_tile_spatial.o ./soobj/r_tile_frequency.o ./soobj/w_strip.o ./soobj/w_tile_spatial.o ./soobj/w_tile_frequency.o ./soobj/x_strip.o

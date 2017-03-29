@@ -1,4 +1,0 @@
--obj ./soobj/iutil2.o ./soobj/zmisc2.o
--include ./soobj/dps2int ./soobj/usparam
--oper zmisc2
--ps gs_lev2 gs_res

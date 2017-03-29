@@ -1,1 +1,0 @@
--dev lp9600s -include ./soobj/page -obj ./soobj/gdevescv.o

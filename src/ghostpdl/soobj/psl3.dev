@@ -1,4 +1,0 @@
--obj -include ./soobj/psl2 ./soobj/cspixel ./soobj/frsd ./soobj/func
--include ./soobj/psl3lib ./soobj/psl3read
--include ./soobj/icc
--emulator PostScript PostScriptLevel2 PostScriptLevel3

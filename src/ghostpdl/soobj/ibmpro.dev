@@ -1,1 +1,0 @@
--dev ibmpro -include ./soobj/page -obj ./soobj/gdevepsn.o

@@ -1,1 +1,0 @@
--dev bj10v -include ./soobj/page -obj ./soobj/gdev10v.o ./soobj/gdevprn.o

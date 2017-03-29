@@ -1,3 +1,0 @@
--obj ./soobj/zfmd5.o
--include ./soobj/smd5
--oper zfmd5

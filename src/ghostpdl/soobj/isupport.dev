@@ -1,2 +1,0 @@
--obj ./soobj/ialloc.o ./soobj/igc.o ./soobj/igcref.o ./soobj/igcstr.o
--obj ./soobj/ilocate.o ./soobj/iname.o ./soobj/isave.o

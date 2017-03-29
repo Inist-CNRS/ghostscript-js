@@ -1,4 +1,0 @@
--obj -include ./soobj/dps ./soobj/dpnxtlib
--obj ./soobj/zdpnext.o
--oper zdpnext
--ps gs_dpnxt

@@ -1,2 +1,0 @@
--dev2 jpegcmyk -include ./soobj/page -obj ./soobj/gdevjpeg.o
--include ./soobj/sdcte

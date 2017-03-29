@@ -1,2 +1,0 @@
--obj ./soobj/adler32.o ./soobj/deflate.o ./soobj/compress.o ./soobj/trees.o ./soobj/crc32.o
--include ./soobj/zlibc.dev

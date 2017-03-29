@@ -1,2 +1,0 @@
--dev2 tiffgray -include ./soobj/page -obj ./soobj/gdevtsep.o ./soobj/gsequivc.o ./soobj/minftrsz.o
--include ./soobj/tiffs -include ./soobj/libtiff

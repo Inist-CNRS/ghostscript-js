@@ -1,1 +1,0 @@
--dev uniprint -include ./soobj/page -obj ./soobj/gdevupd.o

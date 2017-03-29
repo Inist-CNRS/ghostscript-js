@@ -1,7 +1,0 @@
--obj ./soobj/pcbiptrn.o ./soobj/pccid.o ./soobj/pccolor.o ./soobj/pccsbase.o ./soobj/pcdither.o ./soobj/pcfrgrnd.o ./soobj/pcht.o ./soobj/pcident.o ./soobj/pcindxed.o ./soobj/pclookup.o ./soobj/pcmtx3.o ./soobj/pcpalet.o ./soobj/pcpatrn.o ./soobj/pcpatxfm.o ./soobj/pcuptrn.o ./soobj/pcwhtidx.o ./soobj/rtgmode.o ./soobj/rtrstcmp.o
--include ./soobj/rtlbase
--init pcl_cid pcl_color pcl_udither
--init pcl_frgrnd pcl_lookup_tbl
--init pcl_palette pcl_pattern
--init pcl_xfm pcl_upattern
--init rtgmode

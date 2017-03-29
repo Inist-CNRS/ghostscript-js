@@ -1,4 +1,0 @@
--obj ./soobj/zcssepr.o ./soobj/zfsample.o
--oper zcssepr_l2
--oper zfsample
--include ./soobj/func4 ./soobj/seprlib

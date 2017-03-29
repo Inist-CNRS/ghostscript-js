@@ -1,3 +1,0 @@
--obj ./soobj/zvmem2.o ./soobj/zdps1.o
--oper zvmem2 zdps1_l2
--ps gs_dps1

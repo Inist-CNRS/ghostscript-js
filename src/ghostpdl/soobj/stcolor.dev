@@ -1,2 +1,0 @@
--dev stcolor -include ./soobj/page -obj ./soobj/gdevstc.o ./soobj/gdevstc1.o ./soobj/gdevstc2.o
--obj ./soobj/gdevstc3.o ./soobj/gdevstc4.o

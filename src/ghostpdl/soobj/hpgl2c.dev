@@ -1,3 +1,0 @@
--obj ./soobj/pgcolor.o
--include ./soobj/hpgl2
--init pgcolor

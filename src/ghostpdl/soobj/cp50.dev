@@ -1,1 +1,0 @@
--dev cp50 -include ./soobj/page -obj ./soobj/gdevcp50.o

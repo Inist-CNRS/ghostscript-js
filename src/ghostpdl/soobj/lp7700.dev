@@ -1,1 +1,0 @@
--dev lp7700 -include ./soobj/page -obj ./soobj/gdevescv.o

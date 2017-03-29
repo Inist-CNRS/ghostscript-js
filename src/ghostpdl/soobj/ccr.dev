@@ -1,1 +1,0 @@
--dev ccr -include ./soobj/page -obj ./soobj/gdevccr.o

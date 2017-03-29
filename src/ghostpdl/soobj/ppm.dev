@@ -1,1 +1,0 @@
--dev2 ppm -include ./soobj/page -obj ./soobj/gdevpbm.o ./soobj/gdevppla.o ./soobj/gdevmpla.o

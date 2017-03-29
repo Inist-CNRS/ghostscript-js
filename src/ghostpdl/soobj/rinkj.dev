@@ -1,1 +1,0 @@
--dev rinkj -obj ./soobj/gdevrinkj.o ./soobj/evenbetter-rll.o ./soobj/rinkj-byte-stream.o ./soobj/rinkj-device.o ./soobj/rinkj-config.o ./soobj/rinkj-dither.o ./soobj/rinkj-epson870.o ./soobj/rinkj-screen-eb.o

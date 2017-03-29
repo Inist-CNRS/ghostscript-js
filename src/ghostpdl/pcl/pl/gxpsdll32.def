@@ -1,6 +1,0 @@
-;	'GhostXPS Interpreter DLL'
-LIBRARY		GXPSDLL32
-EXPORTS	
-;		DllEntryPoint
-;		DllMain
-		pl_main_aux	@1

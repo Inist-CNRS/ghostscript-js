@@ -1,1 +1,0 @@
--dev djet500c -include ./soobj/page -obj ./soobj/gdevdjtc.o ./soobj/gdevpcl.o

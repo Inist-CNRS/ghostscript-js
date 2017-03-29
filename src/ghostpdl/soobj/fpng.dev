@@ -1,2 +1,0 @@
--dev2 fpng -include ./soobj/page -obj ./soobj/gdevfpng.o ./soobj/gdevpccm.o
-

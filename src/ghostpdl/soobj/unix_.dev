@@ -1,2 +1,0 @@
--obj ./soobj/gp_getnv.o ./soobj/gp_upapr.o ./soobj/gp_unix.o ./soobj/gp_unifs.o ./soobj/gp_unifn.o ./soobj/gp_stdia.o ./soobj/gp_nxpsprn.o -include ./soobj/nosync
--include ./soobj/smd5

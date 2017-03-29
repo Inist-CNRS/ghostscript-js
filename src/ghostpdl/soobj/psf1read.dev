@@ -1,5 +1,0 @@
--obj ./soobj/zchar1.o ./soobj/zcharout.o
--obj ./soobj/zfont1.o ./soobj/zmisc1.o
--include ./soobj/seexec
--oper zchar1 zfont1 zmisc1
--ps gs_agl gs_type1

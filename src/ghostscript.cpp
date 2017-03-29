@@ -1,6 +1,6 @@
 #include <nan.h>
-#include "ghostpdl/base/gserrors.h"
-#include "ghostpdl/psi/iapi.h"
+#include <ghostscript/gserrors.h>
+#include <ghostscript/iapi.h>
 
 using namespace std;
 using namespace Nan;

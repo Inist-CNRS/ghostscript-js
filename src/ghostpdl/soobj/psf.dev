@@ -1,3 +1,0 @@
--obj ./soobj/gdevpsf1.o ./soobj/gdevpsf2.o ./soobj/gdevpsfm.o
--obj ./soobj/gdevpsft.o ./soobj/gdevpsfu.o ./soobj/gdevpsfx.o
--obj ./soobj/spsdf.o

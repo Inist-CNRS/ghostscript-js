@@ -1,1 +1,0 @@
--dev2 pcx16 -include ./soobj/page -obj ./soobj/gdevpcx.o ./soobj/gdevpccm.o
