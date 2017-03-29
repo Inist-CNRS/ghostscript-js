@@ -14,7 +14,8 @@
   },
   "scripts": {
     "test": "semistandard && mocha",
-    "install": "cmake-js compile"
+    "install": "cmake-js compile",
+    "rebuild": "cmake-js rebuild"
   },
   "dependencies": {
     "cmake-js": "^3.4.1",
