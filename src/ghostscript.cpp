@@ -79,4 +79,4 @@ NAN_MODULE_INIT(Init) {
              GetFunction(New<FunctionTemplate>(exec)).ToLocalChecked());
 }
 
-NODE_MODULE(ghostscript_js, Init)
+NODE_MODULE(ghostscriptjs, Init)
