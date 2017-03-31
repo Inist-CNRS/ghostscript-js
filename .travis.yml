@@ -14,3 +14,4 @@ addons:
     packages:
       - libgs-dev
       - g++-4.8
+      - cmake
