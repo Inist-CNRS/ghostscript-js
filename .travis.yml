@@ -1,5 +1,8 @@
 language: node_js
 
+dist: trusty
+sudo: required
+
 node_js:
   - "6"
   - "7"
@@ -14,4 +17,3 @@ addons:
     packages:
       - libgs-dev
       - g++-4.8
-      - cmake
