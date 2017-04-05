@@ -13,11 +13,16 @@
     "node": ">=4.2.0"
   },
   "scripts": {
-    "test": "semistandard && mocha"
+    "test": "mocha",
+    "install": "cmake-js compile",
+    "rebuild": "cmake-js rebuild"
+  },
+  "dependencies": {
+    "cmake-js": "^3.4.1",
+    "nan": "^2.3.3"
   },
   "devDependencies": {
-    "chai": "^3.4.0",
     "mocha": "^3.2.0",
-    "semistandard": "^9.2.1"
+    "rimraf": "^2.6.1"
   }
 }
