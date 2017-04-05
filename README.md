@@ -1,4 +1,4 @@
-[logo ghostscript-js](/ghostscript-js.png)
+![logo ghostscript-js](/ghostscript-js.png)
 
 # ghostscript-js
 
