@@ -1,3 +1,5 @@
+[logo ghostscript-js](/ghostscript-js.png)
+
 # ghostscript-js
 
 Just a nodeJS addons for ghostscript
@@ -5,7 +7,7 @@ Just a nodeJS addons for ghostscript
 ## Requirements
 This version has been tested only on Ubuntu 16.04
 
-**Ubuntu 16.04**
+**Debian/Ubuntu**
 ```shell
 sudo apt-get install libgs-dev g++ cmake
 ```
