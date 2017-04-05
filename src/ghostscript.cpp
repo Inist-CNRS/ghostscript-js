@@ -29,6 +29,7 @@ public:
 
         gscode = gsapi_new_instance(&minst, NULL);
         if (gscode < 0) return;
+        gsapi_set_stdio(minst, gsdll_stdin, gsdll_stdout, gsdll_stderr);
         gscode = gsapi_set_arg_encoding(minst, GS_ARG_ENCODING_UTF8);
 
         if (gscode == 0) gscode = gsapi_init_with_args(minst, gsargc, gsargv);
@@ -58,6 +59,31 @@ private:
     vector<string> args;
     int gscode = 0;
     int gscode1;
+
+    static int gsdll_stdin(void *instance, char *buf, int len) {
+        int ch;
+        int count = 0;
+        while (count < len) {
+            ch = fgetc(stdin);
+            if (ch == EOF)
+                return 0;
+            *buf++ = (char) ch;
+            count++;
+            if (ch == '\n')
+                break;
+        }
+        return count;
+    }
+
+    static int gsdll_stdout(void *instance, const char *str, int len) {
+        fflush(stdout);
+        return len;
+    }
+
+    static int gsdll_stderr(void *instance, const char *str, int len) {
+        fflush(stderr);
+        return len;
+    }
 };
 
 NAN_METHOD(exec) {
