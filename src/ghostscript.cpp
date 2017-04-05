@@ -1,4 +1,4 @@
-#include <nan.h>
+//#include <nan.h>
 #include <ghostscript/gserrors.h>
 #include <ghostscript/iapi.h>
 

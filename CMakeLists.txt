@@ -6,7 +6,7 @@ project(ghostscriptjs)
 # Build a shared library named after the project from the files in `src/`
 file(GLOB SOURCE_FILES "src/*.cpp" "src/*.h")
 add_library(${PROJECT_NAME} SHARED ${SOURCE_FILES})
-include_directories(${CMAKE_SOURCE_DIR}/node_modules/nan)
+#include_directories(${CMAKE_SOURCE_DIR}/node_modules/nan)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/modules/")
 find_package(Ghostscript REQUIRED)
