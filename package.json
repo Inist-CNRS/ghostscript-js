@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "install": "cmake-js compile",
+    "postinstall": "cmake-js compile",
     "rebuild": "cmake-js rebuild"
   },
   "dependencies": {
