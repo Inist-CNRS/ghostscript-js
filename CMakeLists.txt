@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 2.8)
 
 # Name of the project (will be the name of the plugin)
 project(ghostscriptjs)
-
+message(${CMAKE_SOURCE_DIR}/../nan)
 # Build a shared library named after the project from the files in `src/`
 file(GLOB SOURCE_FILES "src/*.cpp" "src/*.h")
 add_library(${PROJECT_NAME} SHARED ${SOURCE_FILES})
-include_directories(${CMAKE_JS_INC})
+include_directories(${CMAKE_SOURCE_DIR}/../nan)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/modules/")
 find_package(Ghostscript REQUIRED)
