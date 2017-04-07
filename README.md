@@ -32,8 +32,15 @@ gs.exec([
   '-r300',
   '-sOutputFile=output-%03d.tiff',
   'input.pdf'
-], (error, result) => {
-  if (err) return console.log(error);
-  console.log(result)
+], (codeError) => {
+  if (codeError) {
+    // deal with the codeError
+    ...
+  } else {
+    // Great ! No errors !
+    ...
+  }
 });
 ```
+
+For more information about GhostScript error messages : https://ghostscript.com/doc/current/API.htm#return_codes

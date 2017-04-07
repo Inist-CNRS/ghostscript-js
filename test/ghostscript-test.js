@@ -12,13 +12,12 @@ describe('ghostscript-js', function () {
       '-r300',
       `-sOutputFile=${__dirname}/output-%03d.tiff`,
       `${__dirname}/test.pdf`
-    ], (err, result) => {
-      if (err) return done(err);
-      assert.equal(result, 'All is ok !');
+    ], (codeError) => {
+      if (codeError) return done(err);
       done();
     });
   });
-  it('should return an error with no input', function (done) {
+  it('should return an code error fatal', function (done) {
     gs.exec([
       '-q',
       '-dNOPAUSE',
@@ -27,8 +26,8 @@ describe('ghostscript-js', function () {
       '-r300',
       `-sOutputFile=${__dirname}/output-%03d.tiff`,
       `${__dirname}/no-test.pdf`
-    ], (err) => {
-      assert.equal(err, 'Something is wrong, dude !');
+    ], (codeError) => {
+      assert.equal(codeError, -100);
       done();
     });
   });

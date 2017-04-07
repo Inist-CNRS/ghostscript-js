@@ -44,13 +44,12 @@ public:
 
     // Executes in event loop
     void HandleOKCallback() {
-        if ((gscode == 0) || (gscode == gs_error_Quit)) {
-            Local<String> allOK = Nan::New<String>("All is ok !").ToLocalChecked();
-            Local<Value> argv[] = {Nan::Null(), allOK};
-            callback->Call(2, argv);
+        if (gscode == gs_okay) {
+            Local<Value> argv[] = {Nan::Null()};
+            callback->Call(1, argv);
         } else {
-            Local<String> error = Nan::New<String>("Something is wrong, dude !").ToLocalChecked();
-            Local<Value> argv[] = {error};
+            Local<Integer> codeError = Nan::New(gscode);
+            Local<Value> argv[] = {codeError};
             callback->Call(1, argv);
         }
     }
@@ -75,15 +74,9 @@ private:
         return count;
     }
 
-    static int gsdll_stdout(void *instance, const char *str, int len) {
-        fflush(stdout);
-        return len;
-    }
+    static int gsdll_stdout(void *instance, const char *str, int len) { return len; }
 
-    static int gsdll_stderr(void *instance, const char *str, int len) {
-        fflush(stderr);
-        return len;
-    }
+    static int gsdll_stderr(void *instance, const char *str, int len) { return len; }
 };
 
 NAN_METHOD(exec) {
