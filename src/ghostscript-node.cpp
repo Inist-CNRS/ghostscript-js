@@ -6,9 +6,9 @@ using namespace std;
 using namespace Nan;
 using namespace v8;
 
-class GhostscriptNode : public AsyncWorker {
+class ghostscript : public AsyncWorker {
 public:
-    GhostscriptNode(Callback *callback, vector<string> args) : AsyncWorker(callback), args(args) {}
+    ghostscript(Callback *callback, vector<string> args) : AsyncWorker(callback), args(args) {}
 
     // Executes in worker thread
     void Execute() {
@@ -97,7 +97,7 @@ NAN_METHOD(exec) {
         }
     }
     Callback *callback = new Callback(info[1].As<Function>());
-    AsyncQueueWorker(new GhostscriptNode(callback, args));
+    AsyncQueueWorker(new ghostscript(callback, args));
 }
 
 NAN_MODULE_INIT(Init) {
