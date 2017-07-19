@@ -37,3 +37,6 @@ node_modules
 
 # CMake debug
 cmake-build-debug
+
+# Visual Studio Code
+.vscode
