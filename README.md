@@ -4,7 +4,7 @@
 
 # ghostscript-js
 
-Just a nodeJS addons for ghostscript
+Just a NodeJS addons for ghostscript
 
 ## Requirements
 This version has been tested only on Ubuntu 16.04
