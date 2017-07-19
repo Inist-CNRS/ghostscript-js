@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Inist-CNRS/ghostscript-js.svg?branch=master)](https://travis-ci.org/Inist-CNRS/ghostscript-js)
+
 ![logo ghostscript-js](/ghostscript-js.png)
 
 # ghostscript-js
