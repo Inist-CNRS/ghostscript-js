@@ -18,11 +18,11 @@
     "rebuild": "cmake-js rebuild"
   },
   "dependencies": {
-    "cmake-js": "^3.4.1",
-    "nan": "^2.3.3"
+    "cmake-js": "^3.5.0",
+    "nan": "^2.6.2"
   },
   "devDependencies": {
-    "mocha": "^3.2.0",
+    "mocha": "^3.4.2",
     "rimraf": "^2.6.1"
   }
 }
