@@ -10,8 +10,8 @@ sudo: true
 dist: trusty
 
 before_install:
-  - wget http://fr.archive.ubuntu.com/ubuntu/pool/main/g/ghostscript/ghostscript-x_9.18~dfsg~0-0ubuntu2.6_amd64.deb
-  - sudo dpkg -i ghostscript-x_9.18~dfsg~0-0ubuntu2.6_amd64.deb
+  - wget http://ftp.fr.debian.org/debian/pool/main/g/ghostscript/libgs-dev_9.20~dfsg-3.2_amd64.deb
+  - sudo dpkg -i libgs-dev_9.20~dfsg-3.2_amd64.deb
   - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
   - sudo apt-get update -q
   - sudo apt-get install gcc-4.8 cmake -y
