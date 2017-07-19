@@ -7,11 +7,14 @@ node_js:
 env:
   - CXX=g++-4.8
 
+before_install:
+  - wget http://archive.ubuntu.com/ubuntu/pool/main/g/ghostscript/ghostscript_9.18~dfsg~0-0ubuntu2.6_amd64.deb
+  - sudo dpkg -i ghostscript_9.18~dfsg~0-0ubuntu2.6_amd64.deb
+
 addons:
   apt:
     sources:
       - ubuntu-toolchain-r-test
     packages:
-      - libgs-dev
       - g++-4.8
       - cmake
