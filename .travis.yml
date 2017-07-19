@@ -9,11 +9,10 @@ env:
 sudo: true
 dist: trusty
 
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-4.8
-      - libgs-dev
-      - cmake
+before_install:
+  - wget http://fr.archive.ubuntu.com/ubuntu/pool/main/g/ghostscript/ghostscript-x_9.18~dfsg~0-0ubuntu2.6_amd64.deb
+  - sudo dpkg -i ghostscript-x_9.18~dfsg~0-0ubuntu2.6_amd64.deb
+  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+  - sudo apt-get update -q
+  - sudo apt-get install gcc-4.8 cmake -y
+  
