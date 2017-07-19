@@ -1,5 +1,4 @@
 language: node_js
-
 node_js:
   - "6"
   - "8"
@@ -7,6 +6,8 @@ node_js:
 env:
   - CXX=g++-4.8
 
+sudo: true
+dist: trusty
 before_install:
   - wget http://archive.ubuntu.com/ubuntu/pool/main/g/ghostscript/ghostscript_9.18~dfsg~0-0ubuntu2.6_amd64.deb
   - sudo dpkg -i ghostscript_9.18~dfsg~0-0ubuntu2.6_amd64.deb
