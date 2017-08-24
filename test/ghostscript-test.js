@@ -13,7 +13,7 @@ describe('ghostscript-js', function () {
       `-sOutputFile=${__dirname}/output-%03d.tiff`,
       `${__dirname}/test.pdf`
     ], (codeError) => {
-      if (codeError) return done(err);
+      if (codeError) return done(codeError);
       done();
     });
   });
