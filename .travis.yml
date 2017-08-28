@@ -1,7 +1,14 @@
-language: node_js
-node_js:
-  - "4"
-  - "6"
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker pull ubuntu:xenial
+  - docker build -t ubuntu-node test
+
+script:
+  - docker run -it -v "$PWD:/app" ubuntu-node bash -i -c "cd app && npm install && npm test"
 
 notifications:
   slack: 'inist-dpi:53Jp5iUZeRidSGZn0TukMSKo#activity'
