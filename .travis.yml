@@ -1,18 +1,11 @@
-language: node_js
-node_js:
-  - "6"
-  - "8"
+sudo: required
 
-env:
-  - CXX=g++-4.8
-
-sudo: true
-dist: trusty
+services:
+  - docker
 
 before_install:
-  - wget http://ftp.fr.debian.org/debian/pool/main/g/ghostscript/libgs-dev_9.20~dfsg-3.2_amd64.deb
-  - sudo dpkg -i libgs-dev_9.20~dfsg-3.2_amd64.deb
-  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
-  - sudo apt-get update -q
-  - sudo apt-get install gcc-4.8 cmake -y
-  
+  - docker pull ubuntu:xenial
+  - docker build -t ubuntu-node test
+
+script:
+  - docker run -it -v "$PWD:/app" ubuntu-node bash -i -c "cd app && npm install --unsafe-perm && npm test"
