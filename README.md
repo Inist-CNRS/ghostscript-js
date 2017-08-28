@@ -21,11 +21,7 @@ npm install ghostscript-js
 
 ## Usage
 ```javascript
-
-const Ghostscript = require('ghostscript-js')
-
-const gs = new Ghostscript()
-
+const gs = require('ghostscript-js')
 gs.exec([
   '-q',
   '-dNOPAUSE',
