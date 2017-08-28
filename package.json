@@ -1,6 +1,6 @@
 {
   "name": "ghostscript-js",
-  "version": "0.5.1",
+  "version": "1.1.1",
   "description": "Just a nodeJS wrapper for ghostscript",
   "main": "src/ghostscript.js",
   "repository": {
@@ -13,11 +13,16 @@
     "node": ">=4.2.0"
   },
   "scripts": {
-    "test": "semistandard && mocha"
+    "test": "mocha",
+    "postinstall": "cmake-js compile",
+    "rebuild": "cmake-js rebuild"
+  },
+  "dependencies": {
+    "cmake-js": "^3.5.0",
+    "nan": "^2.6.2"
   },
   "devDependencies": {
-    "chai": "^3.4.0",
-    "mocha": "^3.2.0",
-    "semistandard": "^9.2.1"
+    "mocha": "^3.4.2",
+    "rimraf": "^2.6.1"
   }
 }

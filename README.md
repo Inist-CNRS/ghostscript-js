@@ -1,10 +1,23 @@
 [![Build Status](https://travis-ci.org/Inist-CNRS/ghostscript-js.svg?branch=master)](https://travis-ci.org/Inist-CNRS/ghostscript-js)
-[![bitHound Overall Score](https://www.bithound.io/github/Inist-CNRS/ghostscript-js/badges/score.svg)](https://www.bithound.io/github/Inist-CNRS/ghostscript-js)
-[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
+
+![logo ghostscript-js](/ghostscript-js.png)
 
 # ghostscript-js
 
-Just a nodeJS wrapper for ghostscript
+Just a NodeJS addons for ghostscript
+
+## Requirements
+This version has been tested only on Ubuntu 16.04
+
+**Debian/Ubuntu**
+```shell
+sudo apt-get install libgs-dev g++ cmake
+```
+
+## Install
+```shell
+npm install ghostscript-js
+```
 
 ## Usage
 ```javascript
@@ -13,52 +26,23 @@ const Ghostscript = require('ghostscript-js')
 
 const gs = new Ghostscript()
 
-gs.batch()
-  .nopause()
-  .device()
-  .resolution(150)
-  .input('/path/to/file.pdf')
-  .output('/path/to/file.tif')
-  .exec()
-  .then((sdtout) => {
-    // Do something
-  })
-  .catch((error) => {
-    // Do something
-  })
+gs.exec([
+  '-q',
+  '-dNOPAUSE',
+  '-dBATCH',
+  '-sDEVICE=tiff24nc',
+  '-r300',
+  '-sOutputFile=output-%03d.tiff',
+  'input.pdf'
+], (codeError) => {
+  if (codeError) {
+    // deal with the codeError
+    ...
+  } else {
+    // Great ! No errors !
+    ...
+  }
+});
 ```
 
-## API
-
-* batch
-* nopause
-* quiet
-* interpolate
-* ram - number - defaults to 30 MB
-* device - device - defaults to tiff24nc
-* resolution - number
-* firstPage - number
-* lastPage - number
-* AutoRotatePages - All, None, PageByPage
-* antiAliasColorImage
-* antiAliasGrayImage
-* antiAliasMonoImage
-* autoFilterColorImages
-* colorImageFilter
-* autoFilterGrayImages
-* grayImageFilter
-* downsampleColorImages
-* downsampleGrayImages
-* downsampleMonoImages
-* colorConversionStrategy
-* convertCMYKImagesToRGB
-* convertImagesToIndexed
-* UCRandBGInfo
-* preserveHalftoneInfo
-* preserveOPIComments
-* preserveOverprintSettings
-* output - file
-* input - file
-* exec - Promise (ES6)
-* compatibility - number
-* pdfsettings - string
+For more information about GhostScript error messages : https://ghostscript.com/doc/current/API.htm#return_codes

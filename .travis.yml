@@ -9,6 +9,3 @@ before_install:
 
 script:
   - docker run -it -v "$PWD:/app" ubuntu-node bash -i -c "cd app && npm install && npm test"
-
-notifications:
-  slack: 'inist-dpi:53Jp5iUZeRidSGZn0TukMSKo#activity'
