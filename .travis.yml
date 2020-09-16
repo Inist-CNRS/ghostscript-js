@@ -1,11 +1,14 @@
-sudo: required
+language: node_js
+node_js:
+  - "10"
+  - "12"
 
-services:
-  - docker
+env:
+  - CXX=g++-4.8
+
+sudo: true
 
 before_install:
-  - docker pull ubuntu:xenial
-  - docker build -t ubuntu-node test
-
-script:
-  - docker run -it -v "$PWD:/app" ubuntu-node bash -i -c "cd app && npm install --unsafe-perm && npm test"
+  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+  - sudo apt-get update -q
+  - sudo apt-get install -y libgs-dev g++ cmake
