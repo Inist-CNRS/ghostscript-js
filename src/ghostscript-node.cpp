@@ -84,7 +84,7 @@ NAN_METHOD(exec) {
     vector<string> args;
     if (input->IsArray()) {
         for (int unsigned i = 0; i < input->Length(); i++) {
-            v8::String::Utf8Value val(Nan::Get(input, i).ToLocalChecked()->ToString());
+            Nan::Utf8String val(Nan::Get(input, i).ToLocalChecked());
             std::string str(*val);
             args.push_back(str);
         }
