@@ -80,6 +80,9 @@ private:
 };
 
 NAN_METHOD(exec) {
+    if (info.Length() < 2) {
+        return Nan::ThrowError("Wrong number of arguments");
+    }
     Local<Array> input = Local<Array>::Cast(info[0]);
     vector<string> args;
     if (input->IsArray()) {
