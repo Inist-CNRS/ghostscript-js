@@ -18,7 +18,7 @@
     "rebuild": "cmake-js rebuild"
   },
   "dependencies": {
-    "cmake-js": "^6.3.0",
+    "cmake-js": "^7.2.1",
     "nan": "^2.15.0"
   },
   "devDependencies": {
